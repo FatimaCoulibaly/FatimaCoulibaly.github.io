@@ -1,5 +1,5 @@
 body {
-	background-color: ivory;
+	background-color: white;
 	font-family: 'Aref Ruqaa', bold, serif;
 	}
 
@@ -25,8 +25,8 @@ body {
 	}
 
 body {
-	background-color: ivory;
-	font-family: 'Aref Ruqaa', bold, serif;
+	background-color: white;
+	font-family: 'Nunito', sans-serif;
 	}
 
 	#test2 {
@@ -36,14 +36,11 @@ body {
 	h1 {
 	color: green;
 	text-shadow: 5px 3px 3px yellow;
-	font-size: 50px;
 	font-family: 'Aref Ruqaa', bold, serif;
 }
 
 h2 {
-	margin: 10px;
-	font-size: 20px;
-	color: green;
+	color: black;
 	font-family: 'Aref Ruqaa', bold, serif;
 }	
 
@@ -54,14 +51,12 @@ img {
 }
 
 
-li {
+ul {
 	display: inline;
 	margin: 20px;
 
 }
 
 h3 {
-	margin: 10px;
-	font-size: 20px;
 	font-family: 'Aref Ruqaa', bold, serif;
 }
