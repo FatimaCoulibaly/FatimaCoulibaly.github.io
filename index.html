@@ -47,18 +47,50 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
   <script src="script.js"></script>
+  <style>
+.parallax {
+    /* The image used */
+    background-image: url(""https://cdn.britannica.com/47/6847-004-79C24939.jpg" alt="Smiley face" width="400" height="400);
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+<style>
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://cdn.britannica.com/47/6847-004-79C24939.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</style>
 </head>
 </div>
 	
 </h1> 
 <body>
 
-	 <h1> Oi, tudo bom? </h1>
-     <p>
+<div class="parallax"></div>
 
-   <div class="parallax-container">
-      <div class="parallax"><img src="https://cdn.britannica.com/47/6847-004-79C24939.jpg" alt="Smiley face"></div>
-    </div>
+<h1> Oi, tudo bom? </h1>
         
 	 <section>
 	<p>
@@ -73,8 +105,40 @@
 				<li> To be open-minded </li>
 				<li>To motivate you to study abroad</li>
 	</p>
-			<img src="https://previews.123rf.com/images/incomible/incomible1511/incomible151100108/48364752-brazil-map-with-stylized-objects-and-cultural-symbols-.jpg" height= "25%" width="25%" </p>
+  <p>
+  <img class="materialboxed" height="25%" width="25%" src="https://previews.123rf.com/images/incomible/incomible1511/incomible151100108/48364752-brazil-map-with-stylized-objects-and-cultural-symbols-.jpg">
+</p>
+      
 	<p> 	<h1> Let the adventure begin! </h1> </p>
 
+   <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">About Me</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>Thank's for visiting the website!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+  <!-- Modal Trigger -->
+  <button data-target="modal1" class="btn modal-trigger">Homepage</button>
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 </body>
 </html>
