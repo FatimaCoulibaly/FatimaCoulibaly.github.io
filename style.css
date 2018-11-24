@@ -29,6 +29,15 @@ body {
 	font-family: 'Nunito', sans-serif;
 	}
 
+	ocument.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
+
+	$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
 	#test2 {
 		color: yellow;
 
@@ -52,6 +61,12 @@ img {
 
 
 ul {
+	display: inline;
+	margin: 20px;
+
+}
+
+ol {
 	display: inline;
 	margin: 20px;
 
